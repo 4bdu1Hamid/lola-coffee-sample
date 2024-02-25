@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"  data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lola coffee</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Kanit:wght@300&family=Libre+Baskerville&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* CSS to set background image for jumbotron */
+        .jumbotron {
+          background-image: url(./assets/images/beans\ master.webp);
+          background-size: cover;
+          background-position: center;
+          color: #D22F25; 
+        }
+        .white{
+            color: aliceblue;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cup-hot-fill mx-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5"/>
+                <path d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8"/>
+              </svg>
+            <span class="fs-4 bree-serif-regular ">Lola Coffee</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link bree-serif-regular white" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link bree-serif-regular white">Menu</a></li>
+            <li class="nav-item"><a href="#" class="nav-link bree-serif-regular white">History of lola</a></li>
+            <li class="nav-item"><a href="#" class="nav-link bree-serif-regular white">Photos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link bree-serif-regular white">Contact Us</a></li>
+          </ul>
+        </header>
+    </div>    
+      </div>   
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis bree-serif-regular">Coffee roasted in house daily</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Now 2 Locations in Phoenix <br>
+
+            Full Breakfast Menu <br>
+            
+            Coffee - Espresso - Bakery</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3 ">Explore menu</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Home Delivery</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./assets/images/cr=w_1360,h_540,a_cc.webp" class="img-fluid border rounded-3  mb-4" alt="Example image" width="700" height="1400" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-body-emphasis bree-serif-regular mb-3" style=" color: #D22F25 !important;">Lola Coffee & Espresso</h1>
+        <hr>
+            <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/cookie 2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/cake 3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/coffee 2.jpg" class="d-block w-100" alt="...">
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        
+        <img src="./assets/images/coffee shop.jpg" class="img-fluid border rounded-3 my-4">
+        <div class="p-3 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold bree-serif-regular">Dedicated to Quality</h1>
+              <p class="col-md-8 fs-5">We pride ourselves on providing organic, fair trade tea and coffee. We work with local dairy suppliers and bakeries to source the freshest, highest quality offerings. We offer a full breakfast menu, delicious baked goods and of course, some of the best coffee you'll ever have. We're family owned & operated and we appreciate our community! Come say hi!</p>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/beans.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bree-serif-regular" style="font-size: x-large !important;    color: #D22F25 !important;">Arcadia Location</h5>
+                  <p class="card-text">Our BRAND NEW location in Arcadia location is OPEN!<br>
+
+                    3950 E. Indian School Road #120 <br>
+                   
+                   Phoenix, AZ 85018<br>
+                   
+                   
+                   
+                   New Arcadia Location Hours:<br>
+                   
+                   Monday - Friday 6am to 5pm<br>
+                   
+                   Saturday & Sunday 7am to 4pm<br>
+                   
+                   </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./assets/images/lola.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title bree-serif-regular" style="font-size: x-large !important;    color: #D22F25 !important;">Original Lola Coffee Location in Phoenix</h5>
+                  <p class="card-text">Come visit us at our original Downtown Phoenix location:<br>
+
+                    1001 N. 3rd Avenue #6<br>
+                   
+                   Phoenix, AZ 85003 <br>
+                   
+                   
+                   
+                   Phoenix Location Hours:
+                   <br>
+                   Monday - Friday 6:30am to 7pm<br>
+                   
+                   Saturday & Sunday 7am to 7pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-5">
+            
+              <div class="container py-5  jumbotron img-fluid border rounded-3">
+                <h1 class="text-body-emphasis bree-serif-regular"  style="font-size: xx-large !important; color: #FFFFFFF !important; font-weight: 500 ; ">Come Try the Best Espresso <br> & Roasted Coffee in Phoenix</h1>
+                <button type="button" class="btn btn-danger">Learn More About Lola Coffee</button>
+              </div>
+            </div>
+          </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
